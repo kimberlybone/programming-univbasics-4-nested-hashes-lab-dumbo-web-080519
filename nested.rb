@@ -82,13 +82,12 @@ def adding_matz
           :languages => ["C"]
         }
      }
-}
-new_hash = {
+     new_hash = {
         :yukihiro_matsumoto => {
   :known_for => "Ruby",
     :languages => ["LISP", "C"]
         }
-}
+     }
      new_hash.merge!(programmer_hash)
      puts new_hash    
 end
@@ -130,7 +129,7 @@ def adding_to_dennis
           :known_for => "Unix",
           :languages => ["C"]
         }
-     }
-programmer_hash[:dennis_ritchie][:languages] << "Assembly"
-puts programmer_hash
+ 		}
+ 		programmer_hash[:dennis_ritchie][:languages] << "Assembly"
+ 		puts programmer_hash
 end
